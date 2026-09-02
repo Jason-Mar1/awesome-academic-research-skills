@@ -1,0 +1,102 @@
+name: Add a skill
+description: Propose a verifiable academic research skill for the directory.
+title: "[Skill]: "
+labels:
+  - addition
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for improving the directory. Please propose one public, inspectable skill. A listing is not an endorsement.
+  - type: input
+    id: url
+    attributes:
+      label: Public GitHub URL
+      description: Link directly to the repository or documented skill pack.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      description: Choose one primary workflow category.
+      options:
+        - End-to-end research workflows
+        - Literature, reading, and evidence
+        - Research design, experiments, and scientific computing
+        - Academic writing and paper craft
+        - Figures and visualization
+        - Peer review, rebuttal, and research integrity
+        - Style and voice support
+        - Delivery and research formats
+        - Frameworks, registries, and domain catalogs
+    validations:
+      required: true
+  - type: input
+    id: discipline
+    attributes:
+      label: Discipline fit
+      description: State the suitable disciplines, or `General academic research`.
+      placeholder: General academic research; Computer science; Biomedicine
+    validations:
+      required: true
+  - type: input
+    id: hosts
+    attributes:
+      label: Hosts / platforms
+      description: Declare the supported agent host, API, CLI, or web environment.
+      placeholder: Codex; Claude Code; Cursor; CLI
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Give the detected license, or enter `Not detected` after checking.
+      placeholder: MIT / Apache-2.0 / Not detected
+    validations:
+      required: true
+  - type: textarea
+    id: usefulness
+    attributes:
+      label: What it does and why it is useful
+      description: Describe the concrete workflow task and expected value. Do not make unsupported academic-performance claims.
+      placeholder: It helps researchers ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, examples, and maintenance signal
+      description: Link a demo, test, sample output, documentation, and a recent release/commit or other maintenance evidence.
+      placeholder: |
+        Example: ...
+        Maintenance: ...
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies_security
+    attributes:
+      label: External dependencies and security notes
+      description: State required services/credentials and summarize scripts, network/data transfer, or destructive/publishing behavior you inspected.
+      placeholder: |
+        Dependencies: ...
+        Security notes: ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The repository is public and I found a concrete SKILL.md or documented skill pack/integration.
+          required: true
+        - label: I selected one primary category and declared discipline fit, hosts/platforms, and license status.
+          required: true
+        - label: I checked for an existing entry and will not submit a duplicate.
+          required: true
+        - label: I did not fabricate performance, academic, citation, publication, or affiliation claims.
+          required: true
+        - label: I reviewed scripts and documented network, data-transfer, destructive, or publishing behavior.
+          required: true
