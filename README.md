@@ -74,6 +74,7 @@ Pick a workflow stage first, then use the discipline legend and host column to n
 | [Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-codex-en/research/SKILL.md) | Outline-to-investigation-to-report workflow; web-research configuration or Exa may be needed. | `X` | Codex / Claude / OpenCode | MIT |
 | [zotero-skills](https://github.com/WenyuChiou/zotero-skills/blob/master/skills/zotero-skills/SKILL.md) | Read/write Zotero-library management; API credentials and bulk actions require careful review. | `X` | Codex / Claude / Gemini / Cursor | MIT |
 | [slr-prisma](https://github.com/keemanxp/slr-prisma) | PRISMA 2020 systematic-review workflow and documents; it does not perform meta-analysis. | `X` | Claude-first; manual portability | MIT; PRISMA assets CC BY 4.0 |
+| [Firecrawl skills](https://github.com/firecrawl/skills) | Agent skills for live web search, scrape, and crawl, plus a research-paper index and structured research data from Firecrawl Alexandria. | `X` | Claude Code / Codex / Cursor | ISC |
 
 ## Research design, experiments, and scientific computing
 

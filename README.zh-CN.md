@@ -74,6 +74,7 @@
 | [Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-codex-en/research/SKILL.md) | 从大纲到调查再到报告；可能需要配置网页研究或 Exa。 | `X` | Codex / Claude / OpenCode | MIT |
 | [zotero-skills](https://github.com/WenyuChiou/zotero-skills/blob/master/skills/zotero-skills/SKILL.md) | 读写 Zotero 文献库；API 凭据和批量操作需要谨慎审查。 | `X` | Codex / Claude / Gemini / Cursor | MIT |
 | [slr-prisma](https://github.com/keemanxp/slr-prisma) | PRISMA 2020 系统综述工作流与文档；不执行 meta-analysis。 | `X` | Claude 优先；可手动迁移 | MIT; PRISMA assets CC BY 4.0 |
+| [Firecrawl skills](https://github.com/firecrawl/skills) | 用于实时网页检索、抓取和爬取的 Agent skills，并提供论文索引以及来自 Firecrawl Alexandria 的结构化研究数据。 | `X` | Claude Code / Codex / Cursor | ISC |
 
 ## 研究设计、实验与科学计算
 
