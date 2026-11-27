@@ -116,6 +116,7 @@
 | [tashan-research-skills](https://github.com/TashanGKD/tashan-research-skills/tree/main/skills/statistical-analysis) | 中文科研统计、画图、演示文稿和论文检查。 | `X`, `SS/E`, `CS/AI` | Codex（Windows）/ Claude / Cursor | MIT |
 | [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills/tree/main/skills/data-visualization/scientific-visualization) | 生命科学可视化、生信、临床统计与科研素材。 | `LS/M`, `C/M` | Codex / Claude / Cursor / Windsurf | CC BY 4.0 |
 | [scifig-ai-scientific-figure-skill](https://github.com/lilingm963/scifig-ai-scientific-figure-skill/tree/main/skills/scifig-scientific-figure) | 概念图、图文摘要、技术路线和研究路线图。 | `X`, `EP`, `LS/M` | Codex / Claude / OpenClaw / Hermes | MIT |
+| [Chem Slides](https://github.com/tagirshin/chem-slides) | 从 SMILES 生成可编辑的分子 SVG，并为论文和幻灯片制作分子图机器学习流程图。 | `C/M`, `CS/AI` | Codex / Claude Code | MIT |
 
 ## 审稿、回复与科研诚信
 

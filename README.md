@@ -116,6 +116,7 @@ Pick a workflow stage first, then use the discipline legend and host column to n
 | [tashan-research-skills](https://github.com/TashanGKD/tashan-research-skills/tree/main/skills/statistical-analysis) | Chinese research statistics, figures, presentations, and paper checks. | `X`, `SS/E`, `CS/AI` | Codex (Windows) / Claude / Cursor | MIT |
 | [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills/tree/main/skills/data-visualization/scientific-visualization) | Life-science visualization, bioinformatics, clinical statistics, and research assets. | `LS/M`, `C/M` | Codex / Claude / Cursor / Windsurf | CC BY 4.0 |
 | [scifig-ai-scientific-figure-skill](https://github.com/lilingm963/scifig-ai-scientific-figure-skill/tree/main/skills/scifig-scientific-figure) | Concept figures, graphical abstracts, workflows, and research-roadmap diagrams. | `X`, `EP`, `LS/M` | Codex / Claude / OpenClaw / Hermes | MIT |
+| [Chem Slides](https://github.com/tagirshin/chem-slides) | Renders editable molecular SVGs from SMILES and composes graph ML diagrams for papers and slides. | `C/M`, `CS/AI` | Codex / Claude Code | MIT |
 
 ## Peer review, rebuttal, and research integrity
 
